@@ -17,10 +17,12 @@ switch(x) {
         break;
     case bebidas[1]:
         valor = 3.00;
+        valorPago = valor.toFixed(2);
         console.log("Um " + bebidas,[1] + " quentinho pra meu amigo aqui. Pra você ta saindo a R$" + valorPago);
         break;
     case bebidas[2]:
         valor = 3.50;
+        valorPago = valor.toFixed(2);
         console.log("Uma " + bebidas[2] + " quentinho pra meu amigo aqui. Pra você ta saindo a R$" + valorPago);
         break;
     default:

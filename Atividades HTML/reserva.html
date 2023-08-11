@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <fieldset>
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </div>
+            <hr>
+            <legend>Serviços desejados</legend>
+            <div>
+                <input type="checkbox" name="compra-passagem">
+                <label for="compra-passagem">Compra de passagens</label>
+            </div>
+            <div>
+                <input type="checkbox" name="reserva-hospedagem">
+                <label for="reserva-hospedagem">Reserva de hospedagem</label>
+            </div>
+            <div>
+                <input type="checkbox" name="aluguel-veiculo">
+                <label for="aluguel-veiculo">Aluguel de Veículos</label>
+            </div>
+            <hr>
+            <legend>Forma de Pagamento</legend>
+            <div>
+                <label for="cartao-credito">Cartão de Crédito</label>
+                <input type="radio" name="cartao-credito">
+            </div>
+            <div>
+                <label for="boleto">Boleto</label>
+                <input type="radio" name="boleto">
+            </div>
+            <div>
+                <label for="pix">Pix</label>
+                <input type="radio" name="pix">
+            </div>
+            <hr>
+            <legend>Prazo de pagamento</legend>
+            <br>
+            <select name="pagamento">
+                <option value="avista">Á Vista</option>
+                <option value="5x">5x Sem juros</option>
+                <option value="10">10x Com juros</option>
+            </select>
+            <hr>
+            <input type="submit" value="Enviar">
+
+        </form>
+    </fieldset>
+</body>
+</html>
